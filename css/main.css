@@ -10,11 +10,19 @@
   background : #000a ; 
   color : #fc0 ; 
 }
+body 
+{
+  display : flex ; 
+  justify-content : center ; 
+  align-items : center ; 
+  font-size : 10rem ; 
+  font-family : sans-serif , system-ui ; 
+}
 a:hover 
 {
   text-decoration : none ; 
   color : #00fa ; 
-  background : #fc0 ; 
+  background : #000 ; 
 }
 a:focus 
 {
