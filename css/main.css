@@ -5,7 +5,7 @@
   border : 0 ; 
   box-sizing : border-box ; 
 }
-:selection 
+::selection 
 {
   background : #000a ; 
   color : #fc0 ; 
