@@ -13,6 +13,7 @@
 body 
 {
   display : flex ; 
+  flex-direction : column ; 
   justify-content : center ; 
   align-items : center ; 
   font-size : 10rem ; 
@@ -21,7 +22,7 @@ body
 a:hover 
 {
   text-decoration : none ; 
-  color : #00fa ; 
+  color : #fc0 ; 
   background : #000 ; 
 }
 a:focus 
