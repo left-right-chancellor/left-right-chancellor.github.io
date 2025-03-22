@@ -27,16 +27,16 @@ body
   height : 32px ; 
   border-radius : 50% ; 
 }
-.github:hover 
-{
-  fill : #000a ; 
-  background : #fff ; 
-}
 .github svg 
 {
   position : absolute ; 
   top : 0 ; 
   left : 0 ; 
+}
+.github svg:hover 
+{
+  fill : #000 ; 
+  background : #fff ; 
 }
 a:hover 
 {
