@@ -26,6 +26,7 @@ body
 }
 .github 
 {
+  justify-self : flex-end ; 
   position : relative ; 
   background : #000 ; 
   width : 32px ; 
