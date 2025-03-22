@@ -21,6 +21,7 @@ body
 }
 .github 
 {
+  position : relative ; 
   background : #000 ; 
   width : 32px ; 
   height : 32px ; 
@@ -30,6 +31,12 @@ body
 {
   fill : #000a ; 
   background : #fff ; 
+}
+.github svg 
+{
+  position : absolute ; 
+  top : 0 ; 
+  left : 0 ; 
 }
 a:hover 
 {
