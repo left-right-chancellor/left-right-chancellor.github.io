@@ -19,19 +19,22 @@ body
   font-size : 3rem ; 
   font-family : sans-serif , system-ui ; 
 }
-a:has( svg ) 
+.github 
 {
   background : #000 ; 
   width : 32px ; 
   height : 32px ; 
   border-radius : 50% ; 
 }
+.github:hover 
+{
+  fill : #000a ; 
+  background : #fff ; 
+}
 a:hover 
 {
   text-decoration : none ; 
   color : #fc0 ; 
-  fill : #000a ; 
-  background : #fff ; 
 }
 a:focus 
 {
