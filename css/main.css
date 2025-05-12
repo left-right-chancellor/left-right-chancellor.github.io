@@ -38,7 +38,13 @@ body
   height : 32px ; 
   border-radius : 50% ; 
 }
-.ex-links svg 
+.ex-links:first-child svg , .ex-links:nth-child( 2 ) svg 
+{
+  position : absolute ; 
+  top : 4 ; 
+  left : 4 ; 
+}
+.ex-links:last-child svg , .ex-links:nth-child( 3 ) svg 
 {
   position : absolute ; 
   top : 0 ; 
