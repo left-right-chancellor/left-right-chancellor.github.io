@@ -24,7 +24,7 @@ body
   font-size : 3rem ; 
   font-family : sans-serif , system-ui ; 
 }
-.ex-link 
+.ex-links 
 {
   position : relative ; 
   background : #000 ; 
@@ -32,13 +32,13 @@ body
   height : 32px ; 
   border-radius : 50% ; 
 }
-.github svg 
+.ex-links svg 
 {
   position : absolute ; 
   top : 0 ; 
   left : 0 ; 
 }
-.github svg:hover 
+.ex-links svg:hover 
 {
   fill : #000 ; 
   background : #fff ; 
