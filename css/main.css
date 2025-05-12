@@ -47,6 +47,7 @@ body
 .ex-links svg:hover 
 {
   fill : #000 ; 
+  stroke : #000 ; 
   background : #fff ; 
 }
 a:hover 
