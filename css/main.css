@@ -41,8 +41,8 @@ body
 .ex-links:first-child svg , .ex-links:nth-child( 2 ) svg 
 {
   position : absolute ; 
-  top : 4 ; 
-  left : 4 ; 
+  top : 4px ; 
+  left : 4px ; 
 }
 .ex-links:last-child svg , .ex-links:nth-child( 3 ) svg 
 {
