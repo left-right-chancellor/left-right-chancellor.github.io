@@ -50,10 +50,14 @@ body
   top : 0 ; 
   left : 0 ; 
 }
-.ex-links svg:hover 
+.ex-links:first-child svg:hover 
+{
+  stroke : #000 ; 
+  background : #fff ; 
+}
+.ex-links:not( :first-child ) svg:hover 
 {
   fill : #000 ; 
-  stroke : #000 ; 
   background : #fff ; 
 }
 a:hover 
