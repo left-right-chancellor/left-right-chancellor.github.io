@@ -9,11 +9,7 @@ $(()=>
         {
             const weekday = now.toLocaleDateString( "en-US", { weekday : "long" } ) ; 
             const hms = now.toLocaleTimeString( "en-US", { hour12 : false } ) ; 
-            const localEl = $( "#now" ) ; 
-            if( localEl ) 
-            {
-                localEl.textContent = `${y}-${m}-${d} ${hms} (${weekday})` ; 
-            }
+            $( "#now" ).text( `${y}-${m}-${d} ${hms} (${weekday})` ) ; 
         }
         $( "#day" ).text( Math.round( ( gsat - now ) / ( 1000 * 60 * 60 * 24 ) ) ) ; 
         _updateTimeId = setInterval( updateLocalTime , 1000 ) ; 
