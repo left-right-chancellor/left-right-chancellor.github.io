@@ -15,7 +15,7 @@ $(()=>
                 localEl.textContent = `${y}-${m}-${d} ${hms} (${weekday})` ; 
             }
         }
-        $( "#day" ).text( Math.round( ( gsat - now ) / ( 1000 * 60 * 60 * 24 ) ) ; 
+        $( "#day" ).text( Math.round( ( gsat - now ) / ( 1000 * 60 * 60 * 24 ) ) ) ; 
         _updateTimeId = setInterval( updateLocalTime , 1000 ) ; 
         updateLocalTime() ; 
     });
