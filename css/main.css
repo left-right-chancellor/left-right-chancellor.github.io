@@ -31,7 +31,7 @@ body
     font-family : "Noto Sans Mono" , "Noto Sans TC" , sans-serif , system-ui ; 
   }
 }
-body > :first-child { font-size : 3rem ; } 
+body > span:first-of-type { font-size : 3rem ; } 
 .footer-bottom 
 {
   display : flex ; 
