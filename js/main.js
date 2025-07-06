@@ -1,6 +1,6 @@
 $(()=>
     {
-        const gsat = new Date( 2026 , 1 , 17 , 8 ) ; 
+        const gsat = new Date( 2026 , 0 , 17 , 8 ) ; 
         let now = new Date() ; 
         function updateLocalTime() 
         {
