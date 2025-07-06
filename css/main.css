@@ -22,7 +22,7 @@ body
   justify-content : center ; 
   align-items : center ; 
   font-size : 1rem ; 
-  font-family : "Noto Sans Mono" , "Noto Sans TC" , sans-serif , system-ui ; 
+  font-family : "Noto Sans Mono" , "Noto Serif TC" , sans-serif , system-ui ; 
 }
 @media only screen and (max-resolution :.9x)
 {
