@@ -21,9 +21,17 @@ body
   flex-direction : column ; 
   justify-content : center ; 
   align-items : center ; 
-  font-size : 3rem ; 
-  font-family : "Noto Sans Mono" , sans-serif , system-ui ; 
+  font-size : 1rem ; 
+  font-family : "Noto Sans Mono" , "Noto Sans TC" , sans-serif , system-ui ; 
 }
+@media only screen and (max-resolution :.9x)
+{
+  body
+  {
+    font-family : "Noto Sans Mono" , "Noto Sans TC" , sans-serif , system-ui ; 
+  }
+}
+body > :first-child { font-size : 3rem ; } 
 .footer-bottom 
 {
   display : flex ; 
