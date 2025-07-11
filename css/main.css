@@ -1,3 +1,8 @@
+@font-face 
+{
+  font-family : menlo_num ; 
+  src : url(https://left-right-chancellor.github.io/f/Menlo-Regular.otf) ; 
+}
 * 
 {
   margin : 0 ; 
@@ -22,13 +27,13 @@ body
   justify-content : center ; 
   align-items : center ; 
   font-size : 1rem ; 
-  font-family : "Noto Sans Mono" , "Noto Serif TC" , sans-serif , system-ui ; 
+  font-family : menlo_num , "Noto Serif TC" , sans-serif , system-ui ; 
 }
 @media only screen and (max-resolution :.9x)
 {
   body
   {
-    font-family : "Noto Sans Mono" , "Noto Sans TC" , sans-serif , system-ui ; 
+    font-family : menlo_num , "Noto Sans TC" , sans-serif , system-ui ; 
   }
 }
 body > span:first-of-type 
