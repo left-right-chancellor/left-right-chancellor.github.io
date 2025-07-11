@@ -1,7 +1,7 @@
 @font-face 
 {
   font-family : menlo_num ; 
-  src : url(https://left-right-chancellor.github.io/f/Menlo-Regular.otf) ; 
+  src : url(https://left-right-chancellor.github.io/f/Menlo-Regular.woff2) format(woff2) , url(https://left-right-chancellor.github.io/f/Menlo-Regular.otf) format(otf) ; 
 }
 * 
 {
