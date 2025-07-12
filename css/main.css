@@ -2,6 +2,7 @@
 {
   font-family : menlo_num ; 
   src : url(https://left-right-chancellor.github.io/f/Menlo-Regular.woff2) format(woff2) , url(https://left-right-chancellor.github.io/f/Menlo-Regular.otf) format(otf) ; 
+  unicode-range : U+0030 - 003A ;
 }
 * 
 {
@@ -15,10 +16,15 @@
   background : #000a ; 
   color : #fc0 ; 
 }
-html , body 
+html , body[首頁] 
 {
   width : 100% ; 
   height : 100vh ; 
+}
+body 
+{
+  font-size : 1rem ; 
+  font-family : menlo_num , "Noto Serif TC" , sans-serif , system-ui ; 
 }
 body 
 {
@@ -26,8 +32,6 @@ body
   flex-direction : column ; 
   justify-content : center ; 
   align-items : center ; 
-  font-size : 1rem ; 
-  font-family : menlo_num , "Noto Serif TC" , sans-serif , system-ui ; 
 }
 @media only screen and (max-resolution :.9x)
 {
@@ -36,10 +40,14 @@ body
     font-family : menlo_num , "Noto Sans TC" , sans-serif , system-ui ; 
   }
 }
-body > span:first-of-type 
+body[首頁] > span:first-of-type 
 {
   font-size : 3rem ; 
   font-weight : 700 ; 
+}
+#day 
+{
+  display : inline-block ; 
 }
 .footer-bottom 
 {
