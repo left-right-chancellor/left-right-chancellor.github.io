@@ -137,3 +137,19 @@ header nav > :first-child > :first-child
     display : none ; 
   }
 }
+@media only screen and ( min-width : 768px ) 
+{
+  header nav 
+  {
+    justify-content : center ; 
+    flex-direction : column ; 
+  }
+  header nav > :nth-child( n ):not( :first-child ) 
+  {
+    margin-bottom : .25rem ; 
+  }
+  body 
+  {
+    margin-top : 8.25rem ; 
+  }
+}
