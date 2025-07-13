@@ -16,7 +16,7 @@
   background : #000a ; 
   color : #fc0 ; 
 }
-html , body[首頁] 
+html , body 
 {
   width : 100% ; 
   height : calc(100vh - 6rem) ; 
@@ -26,9 +26,6 @@ body
   font-size : 1rem ; 
   font-family : menlo_num , "Noto Serif TC" , sans-serif , system-ui ; 
   margin-top : 6rem ; 
-}
-body 
-{
   display : flex ; 
   flex-direction : column ; 
   justify-content : center ; 
@@ -44,11 +41,6 @@ main
   {
     font-family : menlo_num , "Noto Sans TC" , sans-serif , system-ui ; 
   }
-}
-body[首頁] > span:first-of-type 
-{
-  font-size : 3rem ; 
-  font-weight : 700 ; 
 }
 #day 
 {
@@ -151,5 +143,6 @@ header nav > :first-child > :first-child
   body 
   {
     margin-top : 8.25rem ; 
+    height : calc(100vh - 8.25rem) ; 
   }
 }
