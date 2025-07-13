@@ -25,6 +25,7 @@ body
 {
   font-size : 1rem ; 
   font-family : menlo_num , "Noto Serif TC" , sans-serif , system-ui ; 
+  margin-top : 6rem ; 
 }
 body 
 {
@@ -32,6 +33,10 @@ body
   flex-direction : column ; 
   justify-content : center ; 
   align-items : center ; 
+}
+main 
+{
+  margin : 1rem 3rem ; 
 }
 @media only screen and (max-resolution :.9x)
 {
@@ -87,6 +92,11 @@ body[首頁] > span:first-of-type
 {
   fill : #000 ; 
 }
+a , a:visited 
+{
+  color : currentColor ; 
+  text-decoration : none ; 
+}
 a:hover 
 {
   text-decoration : none ; 
@@ -96,4 +106,34 @@ a:focus
 {
   text-decoration : underline ; 
   outline : 1px solid #000 ; 
+}
+
+header 
+{
+  color : #ddd ; 
+  background : #034767 ; 
+  width : 100% ; 
+  position : fixed ; 
+  top : 0 ; 
+}
+header nav 
+{
+  display : flex ; 
+  align-items : center ; 
+}
+header nav > :first-child > :first-child 
+{
+  margin : 1rem ; 
+}
+#home 
+{
+  width : 4rem ; 
+  height : 4rem ; 
+}
+@media print 
+{
+  header 
+  {
+    display : none ; 
+  }
 }
