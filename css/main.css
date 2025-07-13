@@ -19,7 +19,7 @@
 html , body[首頁] 
 {
   width : 100% ; 
-  height : 100vh ; 
+  height : calc(100vh - 6rem) ; 
 }
 body 
 {
