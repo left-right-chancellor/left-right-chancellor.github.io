@@ -114,7 +114,7 @@ a:focus
 header 
 {
   color : #ddd ; 
-  background : radial-gradient(circle at 50% 100% ,#00009a 0% , calc(5200% / 113) , #23c9c9 calc(5200% / 113) , calc(800% / 113) , #14952d calc(6000% / 113) , calc(11100% / 113) , #999 calc(11100% / 113) ) ; 
+  background : linear-gradient(#00009a 0% , 45% , #23c9c9 calc(5200% / 113) , calc(800% / 113) , #14952d calc(6000% / 113) , calc(11100% / 113) , #999 calc(11100% / 113) ) ; 
   width : 100% ; 
   position : fixed ; 
   top : 0 ; 
@@ -146,6 +146,10 @@ header nav > :first-child > :first-child
 }
 @media only screen and ( min-width : 768px ) 
 {
+  header 
+  {
+    background : radial-gradient(circle at 50% 100% ,#00009a 0% , 45% , #23c9c9 calc(5200% / 113) , calc(800% / 113) , #14952d calc(6000% / 113) , calc(11100% / 113) , #999 calc(11100% / 113) ) ; 
+  }
   header nav 
   {
     justify-content : center ; 
