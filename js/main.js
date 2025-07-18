@@ -20,6 +20,6 @@ $(()=>
             $( "#m" ).text( String( min ).padStart( 2 , "0" ) ) ; 
             $( "#s" ).text( String( sec == 60 ? 0 : sec ).padStart( 2 , "0" ) ) ; 
         }
-        const a = setInterval( updateLocalTime , 1000 ) ; 
+        const a = setInterval( updateLocalTime , 500 ) ; 
         updateLocalTime() ; 
     });
