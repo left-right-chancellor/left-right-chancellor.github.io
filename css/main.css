@@ -32,6 +32,8 @@ body
 main 
 {
   margin : 1rem 3rem ; 
+  font-weight : 500 ; 
+  font-size : 1.15rem ; 
 }
 @media only screen and ( min-width : 900px ) 
 {
@@ -46,6 +48,10 @@ main
   {
     font-family : menlo_num , "Noto Sans TC" , sans-serif , system-ui ; 
   }
+}
+#now 
+{
+  text-align : center ; 
 }
 #day 
 {
