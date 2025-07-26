@@ -101,6 +101,19 @@ footer
 {
   fill : #000 ; 
 }
+.ex-links.yt:hover circle 
+{
+  fill : #000 ; 
+  stroke : #fff ; 
+}
+.ex-links.yt:hover g path:first-child 
+{
+  fill : #fff ; 
+}
+.ex-links.yt:hover g path:last-child 
+{
+  fill : #000 ; 
+}
 a , a:visited 
 {
   color : currentColor ; 
