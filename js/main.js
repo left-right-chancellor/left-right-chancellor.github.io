@@ -16,7 +16,7 @@ $(()=>
             const min = Math.floor( ( gsat - now ) / ( 1000 * 60 ) ) - Math.floor( ( gsat - now ) / ( 1000 * 60 * 60 ) ) * 60 ; 
             const sec = Math.floor( ( gsat - now ) / 1000 ) - Math.floor( ( gsat - now ) / ( 1000 * 60 ) ) * 60 + 1 ; 
             const Bday = Math.floor( ( 阮宥翔生日 - now ) / ( 1000 * 60 * 60 * 24 ) ) ; 
-            const Bhr = Math.floor( ( 阮宥翔生日 - now ) / ( 1000 * 60 * 60 ) ) - day * 24 ; 
+            const Bhr = Math.floor( ( 阮宥翔生日 - now ) / ( 1000 * 60 * 60 ) ) - Bday * 24 ; 
             const Bmin = Math.floor( ( 阮宥翔生日 - now ) / ( 1000 * 60 ) ) - Math.floor( ( 阮宥翔生日 - now ) / ( 1000 * 60 * 60 ) ) * 60 ; 
             const Bsec = Math.floor( ( 阮宥翔生日 - now ) / 1000 ) - Math.floor( ( 阮宥翔生日 - now ) / ( 1000 * 60 ) ) * 60 + 1 ; 
             $( "#now" ).text( `民國${y}年${m}月${d}日（${weekday}） ${hms}` ) ; 
