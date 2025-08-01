@@ -93,11 +93,7 @@ footer
 {
   background : #fff ; 
 }
-.ex-links:first-child:hover svg 
-{
-  stroke : #000 ; 
-}
-.ex-links:not( :first-child ):hover svg 
+.ex-links:hover svg 
 {
   fill : #000 ; 
 }
