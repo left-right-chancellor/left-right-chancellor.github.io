@@ -53,7 +53,7 @@ main
 {
   text-align : center ; 
 }
-#day 
+.day , .hr , .m , .s 
 {
   display : inline-block ; 
 }
