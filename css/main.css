@@ -143,6 +143,10 @@ header nav a
 {
   line-height : 1 ; 
 }
+header nav a:not( :first-child ) 
+{
+  padding : .15rem .3rem ; 
+}
 header nav > :first-child > :first-child 
 {
   margin : 1rem ; 
