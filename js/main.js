@@ -5,7 +5,7 @@ $(()=>
         const 阮宥翔生日 = new Date( 2026 , 0 , 16 ) ; 
         const 天差 = Math.floor( ( 學測 - 阮宥翔生日 ) / ( 1000 * 60 * 60 * 24 ) ) ; 
         const 時差 = Math.floor( ( 學測 - 阮宥翔生日 ) / ( 1000 * 60 * 60 ) ) - 天差 * 24 ; 
-        const 開始交往 = new Date( 2025 , 8 , 4 );
+        const 結婚紀念日 = new Date( 2025 , 8 , 7 );
         let now = new Date() ; 
         function updateLocalTime() 
         {
@@ -24,7 +24,7 @@ $(()=>
             const Amin = Math.floor( ( 分科 - now ) / ( 1000 * 60 ) ) - Math.floor( ( 分科 - now ) / ( 1000 * 60 * 60 ) ) * 60 ; 
             const Asec = Math.floor( ( 分科 - now ) / 1000 ) - Math.floor( ( 分科 - now ) / ( 1000 * 60 ) ) * 60 + 1 ; 
             $( "#now" ).text( `民國${y}年${m}月${d}日（${weekday}） ${hms}` ) ; 
-            const Rday = Math.floor( ( now - 開始交往 ) / ( 1000 * 60 * 60 * 24 ) ) ; 
+            const Wday = Math.floor( ( now - 結婚紀念日 ) / ( 1000 * 60 * 60 * 24 ) ) ; 
             $( "#day" ).text( day ) ; 
             $( "#hr" ).text( String( hr ).padStart( 2 , "0" ) ) ; 
             $( "#m" ).text( String( min ).padStart( 2 , "0" ) ) ; 
@@ -37,7 +37,7 @@ $(()=>
             $( "#Bhr" ).text( String( Math.abs( 時差 - hr ) ).padStart( 2 , "0" ) ) ; 
             $( "#Bm" ).text( String( min ).padStart( 2 , "0" ) ) ; 
             $( "#Bs" ).text( String( sec == 60 ? 0 : sec ).padStart( 2 , "0" ) ) ; 
-            $( "#Rday" ).text( Rday ) ; 
+            $( "#Wday" ).text( Wday ) ; 
         }
         const a = setInterval( updateLocalTime , 500 ) ; 
         updateLocalTime() ; 
