@@ -180,7 +180,7 @@ header nav > :first-child > :first-child
   }
   body 
   {
-    margin-top : 8.25rem ; 
-    height : calc(100vh - 8.25rem) ; 
+    margin-top : 10rem ; 
+    height : calc(100vh - 10rem) ; 
   }
 }
