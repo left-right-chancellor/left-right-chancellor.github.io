@@ -53,6 +53,6 @@ $(()=>
                 $( "#birth" ).html( "" ) ; 
             }
         }
-        const a = setInterval( updateLocalTime , 500 ) ; 
+        setInterval( updateLocalTime , 500 ) ; 
         updateLocalTime() ; 
     });
