@@ -1,7 +1,7 @@
 $(()=>
     {
         const 學測 = new Date( 2026 , 0 , 17 , 8 ) ; 
-        const 分科 = new Date( 2026 , 5 , 3 , 8 ) ; 
+        const 分科 = new Date( 2026 , 6 , 11 , 8 ) ; 
         const 阮宥翔生日 = new Date( 2026 , 0 , 16 ) ; 
         const 天差 = Math.floor( ( 學測 - 阮宥翔生日 ) / ( 1000 * 60 * 60 * 24 ) ) ; 
         const 時差 = Math.floor( ( 學測 - 阮宥翔生日 ) / ( 1000 * 60 * 60 ) ) - 天差 * 24 ; 
