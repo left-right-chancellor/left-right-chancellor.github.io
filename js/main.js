@@ -42,7 +42,7 @@ $(()=>
             // $( "#Bhr" ).text( String( Math.abs( 時差 - hr ) ).padStart( 2 , "0" ) ) ; 
             // $( "#Bm" ).text( String( min ).padStart( 2 , "0" ) ) ; 
             // $( "#Bs" ).text( String( sec == 60 ? 0 : sec ).padStart( 2 , "0" ) ) ; 
-            $( "#Wday" ).text( Wday ) ; 
+            // $( "#Wday" ).text( Wday ) ; 
             
             if( now.getMonth() == 聯盟生日.getMonth() && now.getDay() == 聯盟生日.getDay() )
             {
