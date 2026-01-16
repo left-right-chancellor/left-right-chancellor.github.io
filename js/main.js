@@ -2,7 +2,7 @@ $(()=>
     {
         const 學測 = new Date( 2026 , 0 , 17 , 9 ，20 ) ; 
         const 分科 = new Date( 2026 , 6 , 11 , 8 ) ; 
-        // const 阮宥翔生日 = new Date( 2026 , 0 , 16 ) ; 
+        const 阮宥翔生日 = new Date( 2026 , 0 , 16 ) ; 
         const 天差 = Math.floor( ( 學測 - 阮宥翔生日 ) / ( 1000 * 60 * 60 * 24 ) ) ; 
         const 時差 = Math.floor( ( 學測 - 阮宥翔生日 ) / ( 1000 * 60 * 60 ) ) - 天差 * 24 ; 
         // const 結婚紀念日 = new Date( 2025 , 8 , 7 );
@@ -38,10 +38,10 @@ $(()=>
             $( "#Ahr" ).text( String( Ahr ).padStart( 2 , "0" ) ) ; 
             $( "#Am" ).text( String( Amin ).padStart( 2 , "0" ) ) ; 
             $( "#As" ).text( String( Asec == 60 ? 0 : Asec ).padStart( 2 , "0" ) ) ; 
-            $( "#Bday" ).text( day - 天差 ) ; 
-            $( "#Bhr" ).text( String( Math.abs( 時差 - hr ) ).padStart( 2 , "0" ) ) ; 
-            $( "#Bm" ).text( String( min ).padStart( 2 , "0" ) ) ; 
-            $( "#Bs" ).text( String( sec == 60 ? 0 : sec ).padStart( 2 , "0" ) ) ; 
+            // $( "#Bday" ).text( day - 天差 ) ; 
+            // $( "#Bhr" ).text( String( Math.abs( 時差 - hr ) ).padStart( 2 , "0" ) ) ; 
+            // $( "#Bm" ).text( String( min ).padStart( 2 , "0" ) ) ; 
+            // $( "#Bs" ).text( String( sec == 60 ? 0 : sec ).padStart( 2 , "0" ) ) ; 
             $( "#Wday" ).text( Wday ) ; 
             
             if( now.getMonth() == 聯盟生日.getMonth() && now.getDay() == 聯盟生日.getDay() )
