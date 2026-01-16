@@ -38,11 +38,11 @@ $(()=>
             $( "#Ahr" ).text( String( Ahr ).padStart( 2 , "0" ) ) ; 
             $( "#Am" ).text( String( Amin ).padStart( 2 , "0" ) ) ; 
             $( "#As" ).text( String( Asec == 60 ? 0 : Asec ).padStart( 2 , "0" ) ) ; 
-            // $( "#Bday" ).text( day - 天差 ) ; 
-            // $( "#Bhr" ).text( String( Math.abs( 時差 - hr ) ).padStart( 2 , "0" ) ) ; 
-            // $( "#Bm" ).text( String( min ).padStart( 2 , "0" ) ) ; 
-            // $( "#Bs" ).text( String( sec == 60 ? 0 : sec ).padStart( 2 , "0" ) ) ; 
-            // $( "#Wday" ).text( Wday ) ; 
+            $( "#Bday" ).text( day - 天差 ) ; 
+            $( "#Bhr" ).text( String( Math.abs( 時差 - hr ) ).padStart( 2 , "0" ) ) ; 
+            $( "#Bm" ).text( String( min ).padStart( 2 , "0" ) ) ; 
+            $( "#Bs" ).text( String( sec == 60 ? 0 : sec ).padStart( 2 , "0" ) ) ; 
+            $( "#Wday" ).text( Wday ) ; 
             
             if( now.getMonth() == 聯盟生日.getMonth() && now.getDay() == 聯盟生日.getDay() )
             {
