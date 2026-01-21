@@ -10,7 +10,7 @@ $(()=>
         let now = new Date() ; 
         if( now.getMonth() == 聯盟生日.getMonth() && now.getDay() == 聯盟生日.getDay() )
         {
-            $( "#birth" ).html( "" ) ; 
+            $( "#birth" ).html( "今日是聯盟創立" + ( now.getFullYear() - 聯盟生日.getFullYear() ) + "週年" ) ; 
         }
         function updateLocalTime() 
         {
