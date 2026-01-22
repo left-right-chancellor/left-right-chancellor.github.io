@@ -12492,6 +12492,9 @@
                 {
                     for( let i = 1 ; i <= 8 ; i ++ ) 
                     {
+                        $( "." + i + d[di] + name ).text( "" ) ; 
+                        $( "." + i + d[di] + teacher ).text( "" ) ; 
+                        $( "." + i + d[di] + classroom ).text( "" ) ; 
                         $( "." + i + d[di] + name ).text( aa.find( a => ( a.Class == $("select#chooseClass").val() ) ).Table[i - 1].Week[di].Name ) ; 
                         $( "." + i + d[di] + teacher ).text( aa.find( a => ( a.Class == $("select#chooseClass").val() ) ).Table[i - 1].Week[di].Teacher ) ; 
                         $( "." + i + d[di] + classroom ).text( aa.find( a => ( a.Class == $("select#chooseClass").val() ) ).Table[i - 1].Week[di].ClassRoom ) ; 
