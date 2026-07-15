@@ -18,9 +18,38 @@
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
         <style>
+            #cont > div:first-child 
+            {
+                display : flex ; 
+                justify-content : center ; 
+                margin-bottom : 2rem ; 
+            }
             img 
             {
-                width : 100% ; 
+                height : 50vh ; 
+            }
+            @media only screen and ( min-width : 900px ) 
+            {
+                main 
+                {
+                    margin : 1rem 3rem ; 
+                }
+                img 
+                {
+                    width : auto ; 
+                    height : 80vh ; 
+                }
+                #cont 
+                {
+                    display : flex ; 
+                }
+                #cont > div 
+                {
+                }
+                #cont > div:last-child 
+                {
+                    padding : 3rem 1rem ; 
+                }
             }
             dt 
             {
@@ -38,7 +67,7 @@
           </nav>
         </header>
         <main>
-            <div>
+            <div id="cont">
                 <div>
                     <img src="盟主.png" alt="盟主帥照" />
                 </div>
@@ -46,6 +75,13 @@
                     <dl>
                         <dt>盟主</dt>
                         <dd>尤鯨富</dd>
+                        <br />
+                        <dt>盟主的話</dt>
+                        <dd>
+                            欸 嚴厲斥責一切偏激歧視言論 你發瘋了啊 <br />
+                            我再說一次 不管你是同性戀雙性戀紙性戀泛性戀非二元性別變裝皇后等等 <br />
+                            只要不違反中華民國法律以及圖奇社群規範 我都支持 好嗎 <br />
+                        </dd>
                     </dl>
                 </div>
             </div>
